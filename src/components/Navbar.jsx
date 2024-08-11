@@ -8,7 +8,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="pt-3 fixed w-full">
+        <div className="pt-3 fixed w-full z-20">
         <div className="bg-lightBlack w-10/12 rounded-3xl mx-auto flex text-lg border border-gray-400">
             <div
                 className={`px-6 rounded-3xl my-1.5 mx-2 py-1.5 cursor-pointer ${page === "Home" ? "bg-newGreen" : ""}`}
