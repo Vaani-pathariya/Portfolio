@@ -9,10 +9,7 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 const LandingPage = () => {
     return (
-        <div>
-            <div className="text-5xl font-bold underline">
-                Hello world!
-            </div>
+        <div className="bg-black text-white absolute w-full">
             <Navbar />
             <Home />
             <Skills />
