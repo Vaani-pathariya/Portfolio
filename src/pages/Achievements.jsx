@@ -15,12 +15,12 @@ const Achievements=()=>{
                 <div className=" bg-newGreen rounded-3xl border-4 border-white  mr-5 mt-5" style={{width:"40px", height:'40px'}}></div>
                 <div className="w-full ">
                     <div className="text-gray-400 italic">duration</div>
-                    <div className="text-3xl">Achievement
+                    <div className="text-3xl text-newGreen">Achievement
                     </div>
                     <div className="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, sint! Amet asperiores, omnis sapiente quo incidunt perferendis consequuntur. Nihil sint expedita quia, dolorem tempora officiis quas commodi ducimus illum beatae!</div>
                     <div className="mt-3 flex">
-                        <button className=" bg-newGreen text-lg px-5 rounded-full text-black mr-3">Link</button>
-                        <button className=" bg-newGreen text-lg px-5 rounded-full text-black mr-3">Link</button>
+                        <button className=" bg-newGreen text-lg px-5 rounded-full text-black mr-3 italic">Link</button>
+                        <button className=" bg-newGreen text-lg px-5 rounded-full text-black mr-3 italic">Link</button>
 
                     </div>
                 </div>
@@ -30,12 +30,12 @@ const Achievements=()=>{
                 <div className=" bg-newGreen rounded-3xl border-4 border-white  mr-5 mt-5" style={{width:"40px", height:'40px'}}></div>
                 <div className="w-full ">
                     <div className="text-gray-400 italic">duration</div>
-                    <div className="text-3xl">Achievement
+                    <div className="text-3xl text-newGreen">Achievement
                     </div>
                     <div className="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, sint! Amet asperiores, omnis sapiente quo incidunt perferendis consequuntur. Nihil sint expedita quia, dolorem tempora officiis quas commodi ducimus illum beatae!</div>
                     <div className="mt-3 flex">
-                        <button className=" bg-newGreen text-lg px-5 rounded-full text-black mr-3">Link</button>
-                        <button className=" bg-newGreen text-lg px-5 rounded-full text-black mr-3">Link</button>
+                        <button className=" bg-newGreen text-lg px-5 rounded-full text-black mr-3 italic">Link</button>
+                        <button className=" bg-newGreen text-lg px-5 rounded-full text-black mr-3 italic">Link</button>
 
                     </div>
                 </div>
