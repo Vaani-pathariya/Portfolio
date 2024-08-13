@@ -20,31 +20,31 @@ const Home = () => {
                     I'm a <span className="text-newGreen">Full Stack Web Developer</span> & Machine Learning Enthusiast
                     <div className="text-lg mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minus dignissimos beatae dolores quam neque ad sint voluptatibus autem aspernatur quae, provident fuga consequuntur quia reiciendis blanditiis quas praesentium facere?</div>
                     <div className="flex mt-10">
-                    <div className="border rounded-lg w-52">
+                    <div className="border rounded-lg w-52 text-4xl p-2 bg-lightBlack">
                         <div className="flex justify-between">
-                        <TiSocialLinkedin/>
-                        <MdArrowOutward/>
+                        <TiSocialLinkedin size='3rem'/>
+                        <MdArrowOutward size='3rem'/>
                         </div>
                         <div>
                         1.2k
                         </div>
                     </div>
-                    <div className="border rounded-lg mx-5 w-52">
+                    <div className="border rounded-lg w-52 text-4xl p-2 ml-4 bg-lightBlack">
                         <div className="flex justify-between">
-                        <LuGithub/>
-                        <MdArrowOutward/>
+                        <LuGithub className="my-auto"/>
+                        <MdArrowOutward size='3rem'/>
                         </div>
                         <div>
-                        1.2k
+                        70 Repos
                         </div>
                     </div>
-                    <div className="border rounded-lg w-52">
+                    <div className="border rounded-lg w-52 text-4xl p-2 ml-4 bg-lightBlack">
                         <div className="flex justify-between">
-                        <RiTwitterXFill/>
-                        <MdArrowOutward/>
+                        <RiTwitterXFill className="my-auto"/>
+                        <MdArrowOutward size='3rem'/>
                         </div>
                         <div>
-                        1.2k
+                        104
                         </div>
                     </div>
                     </div>
