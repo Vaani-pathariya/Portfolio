@@ -8,7 +8,7 @@ import sendwave from "../assets/sendwave.png"
 import islife from "../assets/islife.png"
 import Project from "../components/Project";
 const Projects = () => {
-    const [project, setProject] = useState("hi");
+    const [project, setProject] = useState("lineup");
     const changeProject = (value) => {
         setProject(value);
     };
