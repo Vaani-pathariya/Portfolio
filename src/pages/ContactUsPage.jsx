@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
-
+import { Link } from "react-router-dom";
 const ContactUsPage = () => {
     return (
         <div className="px-12 pb-10" id="contact">
@@ -16,15 +16,15 @@ const ContactUsPage = () => {
             <div className="flex mt-10">
                 <div className="w-1/2 pr-10">
                     <div className="text-5xl mb-10">Let's Get In Touch</div>
-                    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae impedit est earum repellendus, atque esse quam. Distinctio eius voluptate similique, excepturi vel, natus quidem alias explicabo suscipit ullam neque nostrum.</div>
+                    <div>Lets connect and work together</div>
                     <hr className="mt-10"></hr>
                     <div className="text-4xl font-semibold mt-5">Socials</div>
-                    <div className="border w-fit rounded-3xl mt-4 px-8 py-3 border-newGreen">vaanipathariya@gmail.com</div>
+                    <Link to="mailto:vaanipathariya@gmail.com"><div className="border w-fit rounded-3xl mt-4 px-8 py-3 border-newGreen">vaanipathariya@gmail.com</div></Link>
                     <div className="flex mt-5">
-                        <FaGithub size='2.5rem' className="mr-3"/>
-                        <FaLinkedin size='2.5rem' className="mr-3"/>
-                        <SiLeetcode size='2.5rem' className="mr-3"/>
-                        <BsTwitterX size='2.5rem'/>
+                        <Link to="https://github.com/Vaani-pathariya"><FaGithub size='2.5rem' className="mr-3"/></Link>
+                        <Link to="https://www.linkedin.com/in/vaani-pathariya/"><FaLinkedin size='2.5rem' className="mr-3"/></Link>
+                        <Link to="https://leetcode.com/u/vaanipathariya/"><SiLeetcode size='2.5rem' className="mr-3"/></Link>
+                        <Link to="https://x.com/PathariyaVaani"><BsTwitterX size='2.5rem'/></Link>
                     </div>
                 </div>
                 <div className="w-1/2 bg-lightBlack rounded-3xl px-16">
