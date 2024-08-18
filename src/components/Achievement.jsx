@@ -6,7 +6,7 @@ const Achievement=(props)=>{
                 <div className=" bg-newGreen rounded-3xl border-4 border-white  mr-5 mt-5" style={{width:"55px", height:'40px'}}></div>
                 <div className="w-full ">
                     <div className="text-gray-400 italic">{props.duration}</div>
-                    <div className="text-3xl text-newGreen">{props.Achievement}
+                    <div className="text-3xl text-newGreen mb-3">{props.Achievement}
                     </div>
                     <div className="text-gray-400">{props.desc}</div>
                     <div className="mt-3 flex">
