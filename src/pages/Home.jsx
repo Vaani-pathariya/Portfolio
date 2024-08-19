@@ -23,7 +23,7 @@ const Home = () => {
                         style={{ borderRadius: '50%', maxWidth: '400px', maxHeight: '400px', objectFit: 'cover' }}
                         alt="Profile"
                     />
-                    <div className="ml-12 text-3xl lg:text-7xl lg:w-7/12 text-center lg:text-left mt-10 order-1">
+                    <div className="w-11/12 mx-auto lg:ml-12 text-3xl lg:text-7xl lg:w-7/12 text-center lg:text-left mt-10 order-1">
                         I'm a <span className="text-newGreen">Full Stack Web Developer</span> & Machine Learning Enthusiast
                         <div className="text-lg mt-8">
                             I'm a passionate final year computer science student with a deep love for technology and innovation. With a strong foundation in problem-solving, I'm excited to continue exploring the ever-evolving world of technology and making a positive impact.
