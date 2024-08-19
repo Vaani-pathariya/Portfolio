@@ -57,7 +57,7 @@ const ContactUsPage = () => {
                 </div>
             </div>
             <div className="lg:flex mt-10">
-            <div className="lg:w-1/2 bg-lightBlack rounded-3xl px-16 order-2">
+            <div className="lg:w-1/2 bg-lightBlack rounded-3xl lg:px-16 px-8 order-2">
                     <form onSubmit={sendEmail}>
                         <div className="text-5xl mt-12 mb-5 text-newGreen pt-5 lg:pt-0">Get In Touch!</div>
                         <input
