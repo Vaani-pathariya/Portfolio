@@ -17,7 +17,7 @@ const Achievement=(props)=>{
                 ))}
                     </div>
                 </div>
-                <img src={props.img} className="w-3/12 rounded-2xl py-2 ml-4"></img>
+                <img src={props.img} className="w-3/12 rounded-2xl py-2 ml-4 hidden lg:block"></img>
                 </div>
     )
 }

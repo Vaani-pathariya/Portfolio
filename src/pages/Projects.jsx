@@ -22,13 +22,13 @@ const Projects = () => {
             </div>
             <div className="w-full mt-10 rounded-sm">
                 <div className="flex  text-lg ">
-                    <div className={`${project == 'lineup' ? 'bg-newGreen' : 'bg-lightBlack border'} px-8 mr-3 rounded-lg py-1 cursor-pointer`} onClick={() => changeProject("lineup")}>Lineup</div>
-                    <div className={`${project == 'flatify' ? 'bg-newGreen' : 'bg-lightBlack border'} px-8 mr-3 rounded-lg py-1 cursor-pointer`} onClick={() => changeProject("flatify")}>Flatify</div>
-                    <div className={`${project == 'sehat' ? 'bg-newGreen' : 'bg-lightBlack border'} px-8 mr-3 rounded-lg py-1 cursor-pointer`} onClick={() => changeProject("sehat")}>Sehat</div>
-                    <div className={`${project == 'PGRKAM' ? 'bg-newGreen' : 'bg-lightBlack border'} px-8 mr-3 rounded-lg py-1 cursor-pointer`} onClick={() => changeProject("PGRKAM")}>SIH 2023: PGRKAM</div>
-                    <div className={`${project == 'Therapy' ? 'bg-newGreen' : 'bg-lightBlack border'} px-8 mr-3 rounded-lg py-1 cursor-pointer`} onClick={() => changeProject("Therapy")}>Therapy Pal</div>
-                    <div className={`${project == 'Sendwave' ? 'bg-newGreen' : 'bg-lightBlack border'} px-8 mr-3 rounded-lg py-1 cursor-pointer`} onClick={() => changeProject("Sendwave")}>Send Wave</div>
-                    <div className={`${project == 'ISLife' ? 'bg-newGreen' : 'bg-lightBlack border'} px-8 mr-3 rounded-lg py-1 cursor-pointer`} onClick={() => changeProject("ISLife")}>ISLife</div>
+                    <div className={`${project == 'lineup' ? 'bg-newGreen' : 'bg-lightBlack border'} lg:px-8 px-1 mr-3 rounded-lg py-1 cursor-pointer text-center`} onClick={() => changeProject("lineup")}>Lineup</div>
+                    <div className={`${project == 'flatify' ? 'bg-newGreen' : 'bg-lightBlack border'} lg:px-8 px-1 mr-3 rounded-lg py-1 cursor-pointer text-center`} onClick={() => changeProject("flatify")}>Flatify</div>
+                    <div className={`${project == 'sehat' ? 'bg-newGreen' : 'bg-lightBlack border'} lg:px-8 px-1 mr-3 rounded-lg py-1 cursor-pointer text-center`} onClick={() => changeProject("sehat")}>Sehat</div>
+                    <div className={`${project == 'PGRKAM' ? 'bg-newGreen' : 'bg-lightBlack border'} lg:px-8 px-1 mr-3 rounded-lg py-1 cursor-pointer text-center`} onClick={() => changeProject("PGRKAM")}>SIH 2023: PGRKAM</div>
+                    <div className={`${project == 'Therapy' ? 'bg-newGreen' : 'bg-lightBlack border'} lg:px-8 px-1 mr-3 rounded-lg py-1 cursor-pointer text-center`} onClick={() => changeProject("Therapy")}>Therapy Pal</div>
+                    <div className={`${project == 'Sendwave' ? 'bg-newGreen' : 'bg-lightBlack border'} lg:px-8 px-1 mr-3 rounded-lg py-1 cursor-pointer text-center`} onClick={() => changeProject("Sendwave")}>Send Wave</div>
+                    <div className={`${project == 'ISLife' ? 'bg-newGreen' : 'bg-lightBlack border'} lg:px-8 px-1 mr-3 rounded-lg py-1 cursor-pointer text-center`} onClick={() => changeProject("ISLife")}>ISLife</div>
 
                 </div>
                 <div className=" mt-4 border border-newGreen rounded-lg p-4">

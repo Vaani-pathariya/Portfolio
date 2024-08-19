@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Project = (props) => {
     return (
-        <div className="flex">
-            <img src={props.img} className="w-4/12 rounded-md" alt={props.title} />
+        <div className="lg:flex">
+            <img src={props.img} className="lg:w-4/12 rounded-md mb-5 lg:mb-5" alt={props.title} />
             <div className="ml-4">
                 <div className="font-semibold text-3xl">{props.title}</div>
                 <div className="text-lg">{props.description}</div>

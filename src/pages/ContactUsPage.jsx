@@ -56,25 +56,10 @@ const ContactUsPage = () => {
                     CONTACT US
                 </div>
             </div>
-            <div className="flex mt-10">
-                <div className="w-1/2 pr-10">
-                    <div className="text-5xl mb-10">Let's Get In Touch</div>
-                    <div>Let's connect and work together</div>
-                    <hr className="mt-10"></hr>
-                    <div className="text-4xl font-semibold mt-5">Socials</div>
-                    <Link to="mailto:vaanipathariya@gmail.com">
-                        <div className="border w-fit rounded-3xl mt-4 px-8 py-3 border-newGreen">vaanipathariya@gmail.com</div>
-                    </Link>
-                    <div className="flex mt-5">
-                        <Link to="https://github.com/Vaani-pathariya"><FaGithub size='2.5rem' className="mr-3" /></Link>
-                        <Link to="https://www.linkedin.com/in/vaani-pathariya/"><FaLinkedin size='2.5rem' className="mr-3" /></Link>
-                        <Link to="https://leetcode.com/u/vaanipathariya/"><SiLeetcode size='2.5rem' className="mr-3" /></Link>
-                        <Link to="https://x.com/PathariyaVaani"><BsTwitterX size='2.5rem' /></Link>
-                    </div>
-                </div>
-                <div className="w-1/2 bg-lightBlack rounded-3xl px-16">
+            <div className="lg:flex mt-10">
+            <div className="lg:w-1/2 bg-lightBlack rounded-3xl px-16 order-2">
                     <form onSubmit={sendEmail}>
-                        <div className="text-5xl mt-12 mb-5 text-newGreen">Get In Touch!</div>
+                        <div className="text-5xl mt-12 mb-5 text-newGreen pt-5 lg:pt-0">Get In Touch!</div>
                         <input
                             type="text"
                             name="user_email"
@@ -102,6 +87,22 @@ const ContactUsPage = () => {
                         <button type="submit" className="bg-newGreen text-xl rounded-lg px-6 py-2 my-10">SEND</button>
                     </form>
                 </div>
+                <div className="lg:w-1/2 pr-10 order-1 mt-5 lg:mt-0">
+                    <div className="text-5xl mb-10">Let's Get In Touch</div>
+                    <div>Let's connect and work together</div>
+                    <hr className="mt-10"></hr>
+                    <div className="text-4xl font-semibold mt-5">Socials</div>
+                    <Link to="mailto:vaanipathariya@gmail.com">
+                        <div className="border w-fit rounded-3xl mt-4 px-8 py-3 border-newGreen">vaanipathariya@gmail.com</div>
+                    </Link>
+                    <div className="flex mt-5">
+                        <Link to="https://github.com/Vaani-pathariya"><FaGithub size='2.5rem' className="mr-3" /></Link>
+                        <Link to="https://www.linkedin.com/in/vaani-pathariya/"><FaLinkedin size='2.5rem' className="mr-3" /></Link>
+                        <Link to="https://leetcode.com/u/vaanipathariya/"><SiLeetcode size='2.5rem' className="mr-3" /></Link>
+                        <Link to="https://x.com/PathariyaVaani"><BsTwitterX size='2.5rem' /></Link>
+                    </div>
+                </div>
+                
             </div>
         </div>
     );
