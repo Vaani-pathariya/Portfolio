@@ -23,13 +23,13 @@ const Home = () => {
                         style={{ borderRadius: '50%', maxWidth: '400px', maxHeight: '400px', objectFit: 'cover' }}
                         alt="Profile"
                     />
-                    <div className="ml-12 text-7xl lg:w-7/12 text-center lg:text-left mt-10 order-1">
+                    <div className="ml-12 text-3xl lg:text-7xl lg:w-7/12 text-center lg:text-left mt-10 order-1">
                         I'm a <span className="text-newGreen">Full Stack Web Developer</span> & Machine Learning Enthusiast
                         <div className="text-lg mt-8">
                             I'm a passionate final year computer science student with a deep love for technology and innovation. With a strong foundation in problem-solving, I'm excited to continue exploring the ever-evolving world of technology and making a positive impact.
                         </div>
-                        <div className="flex mt-10 w-max mx-auto lg:mx-0">
-                            <div className="border rounded-lg w-52 text-4xl p-2 bg-lightBlack">
+                        <div className="lg:flex block mt-10 w-max mx-auto lg:mx-0">
+                            <div className="border rounded-lg w-52 text-4xl p-2 bg-lightBlack mb-4">
                                 <div className="flex justify-between">
                                     <TiSocialLinkedin size="3rem" />
                                     <Link to="https://www.linkedin.com/in/vaani-pathariya/" target="_blank"><MdArrowOutward size="3rem" /></Link>
@@ -38,7 +38,7 @@ const Home = () => {
                                     <Counter targetNumber="1.2k" duration={2000} />
                                 </div>
                             </div>
-                            <div className="border rounded-lg w-52 text-4xl p-2 ml-4 bg-lightBlack">
+                            <div className="border rounded-lg w-52 text-4xl p-2 lg:ml-4 bg-lightBlack mb-4">
                                 <div className="flex justify-between">
                                     <LuGithub className="my-auto" />
                                     <Link to="https://github.com/Vaani-pathariya" target="_blank"><MdArrowOutward size="3rem" /></Link>
@@ -47,7 +47,7 @@ const Home = () => {
                                     <Counter targetNumber="70 Repos" duration={2000} />
                                 </div>
                             </div>
-                            <div className="border rounded-lg w-52 text-4xl p-2 ml-4 bg-lightBlack">
+                            <div className="border rounded-lg w-52 text-4xl p-2 lg:ml-4 bg-lightBlack">
                                 <div className="flex justify-between">
                                     <RiTwitterXFill className="my-auto" />
                                     <Link to="https://x.com/PathariyaVaani" target="_blank"><MdArrowOutward size="3rem" /></Link>

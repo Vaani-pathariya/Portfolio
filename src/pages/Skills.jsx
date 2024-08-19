@@ -12,10 +12,10 @@ const Skills = () => {
                 <div className="text-lg mb-2">
                     <div>Programming Languages</div>
                     <div className="flex flex-wrap  mt-2">
-                    <img src="https://img.shields.io/badge/C++-00599C.svg?style=for-the-badge&logo=C++&logoColor=white" className=" rounded-lg mx-2 h-9"></img>
-                    <img src=" https://img.shields.io/badge/C-A8B9CC.svg?style=for-the-badge&logo=C&logoColor=black" className=" rounded-lg mx-2 h-9"></img>
-                    <img src=" https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white" className=" rounded-lg mx-2 h-9"></img>
-                    <img src=" https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black" className=" rounded-lg ml-2 h-9"></img>
+                    <img src="https://img.shields.io/badge/C++-00599C.svg?style=for-the-badge&logo=C++&logoColor=white" className=" rounded-lg mx-2 h-9 my-2"></img>
+                    <img src=" https://img.shields.io/badge/C-A8B9CC.svg?style=for-the-badge&logo=C&logoColor=black" className=" rounded-lg mx-2 h-9 my-2"></img>
+                    <img src=" https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white" className=" rounded-lg mx-2 h-9 my-2"></img>
+                    <img src=" https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black" className=" rounded-lg ml-2 h-9 my-2"></img>
                     </div>
                 </div>
                 <div className=" text-lg mt-4">
