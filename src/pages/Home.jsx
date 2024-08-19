@@ -47,7 +47,7 @@ const Home = () => {
                                     <Counter targetNumber="70 Repos" duration={2000} />
                                 </div>
                             </div>
-                            <div className="border rounded-lg w-52 text-4xl p-2 lg:ml-4 bg-lightBlack">
+                            <div className="border rounded-lg w-52 text-4xl p-2 lg:ml-4 bg-lightBlack lg:mb-4">
                                 <div className="flex justify-between">
                                     <RiTwitterXFill className="my-auto" />
                                     <Link to="https://x.com/PathariyaVaani" target="_blank"><MdArrowOutward size="3rem" /></Link>
