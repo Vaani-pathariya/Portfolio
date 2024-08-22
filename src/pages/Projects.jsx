@@ -146,7 +146,7 @@ const Projects = () => {
                     {project === 'flatify' && <Project
                         title="FLATIFY"
                         description="Developed backend for a college flatmate and flat-finding app. Integrated Socket.IO for real-time chatting and implemented OTP email authentication. Added authentication via Google. Flatify: Your Ultimate Student Housing Companion. Seamlessly connect with potential flatmates, explore hostel flats, and simplify your accommodation search. With real-time messaging and a swipe-right approach to find your perfect match, embark on a stress-free journey to your ideal living space."
-                        tech="Node.js , Google Authentication , MongoDB , Socket.io, Real time messaging"
+                        tech="Node.js , Google Authentication , MongoDB , Socket.io, Real time messaging , Video conferencing"
                         img={flatify}
                         links={[{ name: "Github", url: "https://github.com/VAANI-PATHARIYA/FLATMATE-BACKEND" }]}
                     />}
