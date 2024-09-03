@@ -107,7 +107,7 @@ const Navbar = () => {
                                 Experience
                             </HashLink>
                             <Link 
-                                to="https://drive.google.com/file/d/1YmCM9b67FlSv4KuRbsZHeHSdWlx5oS25/view?usp=sharing"
+                                to="https://drive.google.com/file/d/1eMKzWHWF3eyyuAjLBsXtTEG4Fe0mmETp/view?usp=sharing"
                                 target="_blank"
                                 className={`px-6 rounded-3xl my-1.5 py-1.5 cursor-pointer ${page === "Resume" ? "bg-newGreen" : ""}`}
                                 onClick={() => changeNavbar("Resume")}
