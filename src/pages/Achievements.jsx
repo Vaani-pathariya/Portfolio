@@ -21,7 +21,7 @@ const Achievements = () => {
             {/* timeline */}
             <div className="relative ">
                 <div className="h-full bg-white w-1 absolute ml-5 z-0"></div>
-                <Achievement duration="August 2024" Achievement="Completed 665 Solved problems on leetcode" img={leetcode}/>
+                <Achievement duration="August 2024" Achievement="Completed 800+ Solved problems on leetcode" img={leetcode}/>
                 <Achievement img={sih} duration="September 2023" Achievement="Smart India Hackathon 2023 Finalist" desc="Our team crafted a comprehensive and interactive data analytics dashboard, a cutting-edge recommender system, and an AI interview preparation platform—all within the intense confines of the hackathon for JOB seeking individuals. The platform was an extention to the job platform by the government of Punjab PGRKAM" links={[{ name: "Backend", url: "https://github.com/Vaani-pathariya/PGRKAM-backend-public" }, { name: "Frontend", url: "https://github.com/Vaani-pathariya/pgkramfrontend" }]} />
                 <Achievement img={icc} duration="October 2023" Achievement="ICC Next In 2.0 Hackathon 2023 (Top 67 Worldwide)" desc="Out of a staggering 20,000 registrations, we made it to the top 67 teams worldwide ! It's an incredible feat and a testament to the dedication and skills of each member of my team. The selections were diverse and global, spanning countries like India, Pakistan, Canada, and beyond. " />
                 <Achievement img={hacktoberfest} duration="October 2023" Achievement="Hacktoberfest 2023 Project Maintainer" desc="Maintained the repository for org : GDSC JSSATEN for Hacktoberfest 2023 participants" links={[{ name: "Repository", url: "https://github.com/DSC-JSS-NOIDA/Foss-events2.0" }]} />

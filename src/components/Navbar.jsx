@@ -42,7 +42,7 @@ const Navbar = () => {
                         Experience
                     </HashLink>
                     <Link 
-                        to="https://www.linkedin.com/in/vaani-pathariya/overlay/1725976682915/single-media-viewer/?profileId=ACoAADgxUHMByPmrmxcLrJupmTE_mvM498-YBDo"
+                        to="https://www.linkedin.com/in/vaani-pathariya/overlay/1729844843155/single-media-viewer/?profileId=ACoAADgxUHMByPmrmxcLrJupmTE_mvM498-YBDo"
                         target="_blank"
                         className={`px-6 rounded-3xl my-1.5 mx-auto py-1.5 cursor-pointer ${page === "Resume" ? "bg-newGreen" : ""}`}
                         onClick={() => changeNavbar("Resume")}
